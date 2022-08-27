@@ -38,7 +38,12 @@ npm install
 ```
 
 ## Run
-
+To compile contract
 ```bash
-npm run deploy
+npx hardhat compile
+```
+
+To run test
+```bash
+npx hardhat test
 ```
